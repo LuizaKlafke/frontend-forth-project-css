@@ -1,0 +1,199 @@
+/* Estrutura do site */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Helvetica, "Trebuchet MS", sans-serif;
+  background: #fff url(imagens/bg.png);
+  margin: 15px;
+}
+
+#container {
+  margin: 0 auto;
+  min-width: 740px;
+  max-width: 1180px;
+  background: #ede9cc url(../imagens/bg-container.png) top center repeat-y;
+}
+
+#topo {
+  position: relative;
+  min-height: 250px;
+  height: 15.4em;
+  background: #dbcd87;
+}
+
+#area-logo {
+  background: url(imagens/topo-imagem-principal.png) no-repeat;
+  position: absolute;
+  width: 100%;
+  height: 250px;
+  left: 0;
+  top: 0;
+  z-index: 1;
+}
+
+.logo a {
+  position: absolute;
+  text-indent: -9000px;
+  top: 15px;
+  left: 15px;
+  width: 151px;
+  height: 66px;
+  background: url(imagens/logo.png) no-repeat;
+  z-index: 3;
+}
+
+#area-menu {
+  background: url(imagens/topo-imagem-lateral.png) no-repeat;
+  position: absolute;
+  height: 250px;
+  width: 450px;
+  right: 0;
+  top: 0;
+  z-index: 2;
+}
+
+/* Conteúdo topo */
+#conteudo-menu {
+  margin-left: 90px;
+  margin-right: 15px;
+  padding-top: 15px;
+}
+
+#menu-locais {
+  font-size: 0.7em;
+  padding: 5px 0;
+  border-top: 1px solid #b5ab56;
+  border-bottom: 1px solid #b5ab56;
+  color: #8b8448;
+}
+#menu-locais .locais {
+  line-height: 2.1em;
+  float: left;
+}
+
+a {
+  text-decoration: none;
+}
+
+a.reserva {
+  text-transform: uppercase;
+  color: #fff5b0;
+  font-size: 1em;
+  padding: 5px 10px;
+  float: right;
+  background: #a29750;
+}
+
+/* Barra de navegação vertical */
+#menu {
+  margin-top: 15px;
+}
+
+ul {
+  list-style: none;
+}
+
+ul#navegacao {
+  float: left;
+}
+
+ul#navegacao a {
+  text-transform: uppercase;
+  font-size: 0.8em;
+  padding: 5px;
+  line-height: 30px;
+  color: #6e672c;
+}
+
+ul#navegacao a:hover {
+  background: #fdf6be;
+}
+
+.depoimento {
+  width: 226px;
+  height: 164px;
+  float: right;
+}
+
+/* Configura layout de duas colunas */
+#conteudo {
+  background: url(imagens/bg-container.png) repeat-y center top;
+}
+
+#primeiro {
+  background: url(imagens/bg-area-principal.png) repeat-x left top;
+  float: left;
+  width: 50%;
+}
+
+#segundo {
+  background: url(imagens/bg-area-lateral.png) repeat-x right top;
+  float: left;
+  width: 50%;
+}
+
+/* Configura caixa */
+h1 {
+  margin: 0;
+  padding: 0;
+  color: #7d7640;
+  font-size: 1.2em;
+}
+p {
+  margin-top: 5px;
+  padding: 0;
+}
+.caixa {
+  padding: 20px;
+}
+
+/* Menu lateral */
+#segundo ul li {
+  background: url(imagens/ornamento.png) no-repeat;
+  padding: 10px;
+  background-position: right 20px top 20px;
+  float: left;
+  border-bottom: 1px solid #f3efcb;
+}
+
+#segundo ul li:hover {
+  background-color: #f6f3d6;
+}
+
+#segundo ul a {
+  color: black;
+}
+
+.texto {
+  float: right;
+  width: 69%;
+  padding: 5px;
+  /* background-color: brown; */
+}
+
+#segundo a h1 {
+  font-size: 1.1em;
+
+  color: #615b2d;
+}
+
+#segundo a p {
+  font-size: 0.8em;
+}
+
+#segundo a img {
+  width: 28%;
+  float: left;
+}
+
+/* Rodapé */
+#rodape {
+  line-height: 50px;
+  color: #7d7640;
+  padding-left: 20px;
+  clear: both;
+  background: #fff url(imagens/bg-rodape.png) repeat-x top left;
+}
